@@ -61,6 +61,8 @@ def draw_pinned(df):
   fig = plt.figure(figsize=(8, 8))
   plt.xlabel("weight")
   plt.ylabel("profit")
+  plt.xlim(0, 10000)
+  plt.ylim(0, 10000)
   plt.scatter(x, y, c=color, s=1)
   fig.savefig("pinned.png")
 
@@ -77,6 +79,8 @@ def draw_branches(df):
   fig = plt.figure(figsize=(8, 8))
   plt.xlabel("weight")
   plt.ylabel("profit")
+  plt.xlim(0, 10000)
+  plt.ylim(0, 10000)
   plt.scatter(x, y, c=color, s=size)
   fig.savefig("branches.png")
 
@@ -92,6 +96,8 @@ def draw_solution(df):
   fig = plt.figure(figsize=(8, 8))
   plt.xlabel("weight")
   plt.ylabel("profit")
+  plt.xlim(0)
+  plt.ylim(0)
   plt.scatter(x, y, c=color, s=2)
   fig.savefig("solution.png")
 

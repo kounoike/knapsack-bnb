@@ -3,4 +3,4 @@ visualizer/*.png
 pisinger/
 solver/solver
 test.in
-test.csv
+*.csv

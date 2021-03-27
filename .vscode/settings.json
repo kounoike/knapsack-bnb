@@ -4,6 +4,7 @@
         "*.tcc": "cpp",
         "random": "cpp",
         "numeric": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "chrono": "cpp"
     }
 }
